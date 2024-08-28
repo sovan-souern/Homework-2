@@ -4,15 +4,15 @@
     font-family: sans-serif;
 }
 header{
-    background-image: url(https://cdn.pixabay.com/photo/2016/02/18/18/37/puppy-1207816_640.jpg);
+    background-image: url(https://cdn.pixabay.com/photo/2020/03/31/19/20/dog-4988985_640.jpg);
     height: 50vh;
     width: 100%;
-    background-size: cover;
+    background-size: 50%;
 
 }
 nav{
     width: 100%;
-    background-color: rgb(175, 171, 171);
+    background-color: orange;
     color: #fff;
     height: 10vh;
     display:flex;
@@ -21,15 +21,14 @@ nav{
 }
 section {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .card {
     background-color: #fff;
     border-radius: 15px;
-    margin: 10px;
-    padding: 20px;
+    margin: 5px;
+    padding: 10px;
     flex: 2;
     box-sizing: border-box;
     text-align: center;
@@ -43,7 +42,7 @@ section {
 }
 
 .card h3 {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 20px;
     color: #333;
 
